@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parent>h1,.parent>h2{
+            color: blue;
+        }
+        .sub-child>h2{
+            color: goldenrod;
+
+        }
+        .parent>.child>.sub-child>h2{
+            color: blueviolet;
+            color:hotpink
+    
+        }
+     .child1>h1{ 
+            color: aquamarine;
+        } 
+        .parent>.child>.sub-child>.child1>h1{
+            color: blue;
+        }
+         .sub-child+.child1>h1{
+            color: chocolate;
+         }
+        
+        
+        
+    </style>
+
+
+</head>
+<body>
+    <div class="parent">
+        <h1>tiger</h1>
+        <h2>lion</h2>
+        <div class="child">
+            <h2>donkeny</h2>
+            <div class="sub-child">
+                <h2>monkey</h2>
+                <div class="child1">
+                    <h1>chimpanji</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
