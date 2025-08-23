@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .round .cd img{
+            width:300px ;
+            height:300px;
+            border-radius: 100%;
+            animation-name: cd;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            position: relative;
+
+        }
+        @keyframes cd{
+            from{
+                transform:rotate(5deg)
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+        
+        
+        .round{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin: 220px;
+        }
+
+
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="round">
+        <div class="cd"><img src="https://i.gifer.com/5RT9.gif">
+
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
