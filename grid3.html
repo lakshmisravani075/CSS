@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent{
+            display: flex;
+            background-color: lightgoldenrodyellow;
+            gap:10px;
+            
+        }
+        
+        
+        .dropdown{
+            display: none;
+
+        }
+        .sub:hover .dropdown{
+            display: block;
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body  style="background-color: blueviolet;">
+    <div class="parent">
+        <div class="sub">
+            Courses
+            <div class="dropdown">
+                <p>python</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+            </div>
+        </div>
+
+        <div class="sub"> 
+            Tutoriles
+            <div class="dropdown">
+                <p>DSA</p>
+                <p>Web Developement</p>
+                <p>Gate</p>
+                <p>CS subject</p>
+            </div>
+        </div>
+
+
+        <div class="sub">
+            pratice
+            <div class="dropdown">
+                <p>pratice coding problems</p>
+                <p>Nation skillup-course</p>
+                <p>problem of the day</p>
+            </div>
+        </div>
+         
+
+        <div class="sub">
+              jobs
+              <div class="dropdown">
+                <p>Become a mentor</p>
+                <p>Apply job</p>
+                <p>Post jobs</p>
+                <p>Jobs Updates</p>
+              </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
