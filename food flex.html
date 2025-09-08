@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering Website</title>
+  <style>
+    body {
+      font-family: "Playfair Display", serif;
+      margin: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: white;
+      padding: 10px 30px;
+      z-index: 10;
+    }
+
+    .nav1 p {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .nav2 {
+      display: flex;
+      gap: 40px;
+    }
+
+    .header-img {
+      position: relative;
+      width: 100%;
+    }
+
+    .header-img img {
+      width: 100%;
+      margin-top: 60px;
+    }
+
+    .header-text {
+      position: absolute;
+      bottom: 1px;
+      left: 30px;
+      color: gray;
+      font-size: 20px;
+      font-family: serif;
+    }
+
+    .about {
+      display: flex;
+      gap: 20px;
+      margin: 100px 20px 40px;
+      text-align: center;
+    }
+
+    .about img {
+      max-width: 300px;
+    }
+
+    .our-menu {
+      display: flex;
+      gap: 30px;
+      margin: 40px 20px;
+    }
+
+    .our-menu img {
+      max-width: 300px;
+    }
+
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+        text-align: center;
+        margin: 30px 0;
+        background-color: grey;  
+        padding: 20px;           
+        color: black;          
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav1"><p>Gourmet au Catering</p></div>
+    <div class="nav2">
+      <p>About</p>
+      <p>Menu</p>
+      <p>Contact</p>
+    </div>
+  </nav>
+
+  <div class="header-img">
+    <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="Burger">
+    <div class="header-text">
+      <h1>La Catering</h1>
+    </div>
+  </div>
+
+
+  <div class="about">
+    <div class="pic1">
+      <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="Table Setting">
+    </div>
+    <div>
+      <h1>About Catering</h1>
+      <p><b>Tradition since 1889</b></p>
+      <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum <br> dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br> nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in <br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br> pariatur.We only use seasonal ingredients.</p>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit anim id est laborum consectetur adipiscing <br> elit, sed do eiusmod temporincididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+
+
+  <div class="our-menu">
+    <div class="info2">
+        <h1 style="text-align: center;">Our Menu</h1>
+      <h4>Bread Basket</h4>
+      <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p>Natural cereal of honey toasted oats 7.00</p>
+      <h4>Belgian Waffle</h4>
+      <p>Vanilla flavored batter 7.50</p>
+      <h4>Scrambled eggs</h4>
+      <p>Scrambled eggs with red pepper 7.50</p>
+    </div>
+    <div class="pic2">
+      <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="Table Setting">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="contact" style="margin:20px;">
+    <h1>Contact</h1>
+    <p>We offer full-service catering ...</p>
+    <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4>
+    <form>
+      <p><input type="text" placeholder="Name" required></p>
+      <p><input type="number" placeholder="How many people" required></p>
+      <p><input type="datetime-local" required value="2020-11-16T20:00"></p>
+      <p><input type="text" placeholder="Message / Special requirements" required></p>
+      <p><button type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+  <footer>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" style="text-decoration: none; color: black;">w3.css</a></p>
+  </footer>
+
+</body>
+</html>
